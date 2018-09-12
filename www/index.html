@@ -57,6 +57,7 @@
 		function onDeviceReady() {
 		alert('hello');
 		cameraTakePicture();
+		onBatteryStatus();
 		}
 		function cameraTakePicture() { 
 		alert('camera');
@@ -71,6 +72,9 @@
 			function onFail(message) {
 				alert('Failed because: ' + message);
 			}
+		}
+		function onBatteryStatus(info) { 
+		   alert("BATTERY STATUS:  Level: " + info.level + " isPlugged: " + info.isPlugged); 
 		}
     </script>
 </body>
