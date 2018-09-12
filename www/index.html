@@ -46,13 +46,12 @@
         <script type="text/javascript" src="js/index.js"></script>
 		<script type="text/javascript">
 		
-		
-		document.addEventListener("deviceready", function onDeviceReady() {
-			// Now safe to use device APIs
-			alert('onDeviceReady');
-			
-		}, false);
-		
+		function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+		function onDeviceReady(){
+		alert('device is starting');
+		}
 		
 		
 		
