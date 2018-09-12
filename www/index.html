@@ -54,10 +54,11 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         document.addEventListener("deviceready", onDeviceReady, false);
+		window.addEventListener("batterystatus", onBatteryStatus, false);
 		function onDeviceReady() {
-		alert('hello');
-		cameraTakePicture();
-		onBatteryStatus();
+		alert('onDeviceReady');
+	//	cameraTakePicture();
+		
 		}
 		function cameraTakePicture() { 
 		alert('camera');
