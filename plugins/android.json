@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.quick.app"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.quick.app"
     }
   },
   "dependent_plugins": {}
