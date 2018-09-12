@@ -45,10 +45,11 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
 		<script type="text/javascript">
+		document.addEventListener("deviceready", onDeviceReady, false);
 		function onDeviceReady(){
 		alert('device is starting');
 		}
-		document.addEventListener("deviceready", onDeviceReady, false);
+		
 		
 		</script>
 		
