@@ -53,8 +53,9 @@
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
-        document.addEventListener("deviceready", onDeviceReady, false);
+        
 		window.addEventListener("batterystatus", onBatteryStatus, false);
+		document.addEventListener("deviceready", onDeviceReady, false);
 		function onDeviceReady() {
 		alert('onDeviceReady');
 	//	cameraTakePicture();
