@@ -1,13 +1,13 @@
-		window.addEventListener("batterystatus", onBatteryStatus, false);
-		window.addEventListener("batterylow", onBatteryLow, false);
-		window.addEventListener("batterycritical", onBatteryCritical, false);
+		//window.addEventListener("batterystatus", onBatteryStatus, false);
+		//window.addEventListener("batterylow", onBatteryLow, false);
+		//window.addEventListener("batterycritical", onBatteryCritical, false);
 		document.addEventListener("deviceready", onDeviceReady,false);
 		function onDeviceReady() {
 		alert("Device is starting");
-		cameraTakePicture();
-		batteryStatus();
+		//cameraTakePicture();
+		//batteryStatus();
 		}
-		function cameraTakePicture() { 
+		/*function cameraTakePicture() { 
 		alert('camera is starting');
 			navigator.camera.getPicture(onSuccess, onFail, { quality: 50,
 				destinationType: Camera.DestinationType.FILE_URI });
